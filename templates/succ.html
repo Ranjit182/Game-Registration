@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        .signup-container {
+            text-align: center;
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .success-icon {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .success-message {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .success-message span {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #4CAF50;
+            transition: background-color 0.3s;
+        }
+
+        .action-btn:hover {
+            background-color: #45a049;
+        }
+
+        .secondary-btn {
+            background-color: #2196F3;
+        }
+
+        .secondary-btn:hover {
+            background-color: #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="success-icon">✔</div>
+        <div class="success-message">Signup <span>Successful!</span></div>
+        <div class="description">Thank you for signing up. You can now explore our platform or log in to your account.</div>
+        <div class="action-buttons">
+            <a href="#" class="action-btn">Explore Now</a>
+            <a href="/login" class="action-btn secondary-btn">Go to Login</a>
+        </div>
+    </div>
+</body>
+</html>
